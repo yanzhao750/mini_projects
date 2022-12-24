@@ -1,5 +1,5 @@
 /*
-Gets ints from user and returns merge sorted array.
+Gets ints from the user and returns a merge sorted array.
 */
 
 #include <stdio.h>
