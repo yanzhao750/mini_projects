@@ -35,7 +35,6 @@ int main(void)
     return 0;
 }
 
-
 void merge_sort(int array[], int start, int end, int auxArray[])
 {
     // base case: if (sub)array is of size 1 or is empty, consider the array sorted and return
