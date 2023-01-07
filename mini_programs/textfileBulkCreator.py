@@ -17,7 +17,7 @@ if len(sys.argv) != 4:
 # Read unitData into memory from file
 unitData = []
 with open(sys.argv[1]) as csvFile:
-    # Create csv.Dictreader reader
+    # Create csv.DictReader reader
     reader = csv.DictReader(ipFile)
     for unit in reader:
         unitData.append(unit)
